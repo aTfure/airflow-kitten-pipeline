@@ -422,3 +422,115 @@
 [2026-06-16T01:38:31.784+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:38:31.784+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-06-16T01:38:31.877+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:38:31.876+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
 [2026-06-16T01:38:31.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.280 seconds
+[2026-06-16T01:39:02.160+0000] {processor.py:161} INFO - Started process (PID=3380) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:39:02.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:39:02.171+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:39:02.171+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:39:02.203+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:39:02.306+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:39:02.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:39:02.377+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:39:02.376+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:39:02.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.276 seconds
+[2026-06-16T01:39:32.652+0000] {processor.py:161} INFO - Started process (PID=3436) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:39:32.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:39:32.666+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:39:32.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:39:32.690+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:39:32.790+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:39:32.789+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:39:32.885+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:39:32.884+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:39:32.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.340 seconds
+[2026-06-16T01:40:03.549+0000] {processor.py:161} INFO - Started process (PID=3492) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:40:03.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:40:03.554+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:40:03.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:40:03.571+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:40:03.624+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:40:03.623+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:40:03.671+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:40:03.670+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:40:03.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.178 seconds
+[2026-06-16T01:40:34.205+0000] {processor.py:161} INFO - Started process (PID=3549) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:40:34.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:40:34.245+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:40:34.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:40:34.334+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:40:34.509+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:40:34.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:40:34.608+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:40:34.607+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:40:34.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.504 seconds
+[2026-06-16T01:41:05.400+0000] {processor.py:161} INFO - Started process (PID=3605) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:41:05.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:41:05.407+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:41:05.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:41:05.428+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:41:05.483+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:41:05.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:41:05.541+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:41:05.540+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:41:05.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.197 seconds
+[2026-06-16T01:41:35.672+0000] {processor.py:161} INFO - Started process (PID=3661) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:41:35.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:41:35.679+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:41:35.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:41:35.700+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:41:35.762+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:41:35.761+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:41:35.826+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:41:35.826+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:41:35.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.219 seconds
+[2026-06-16T01:42:06.443+0000] {processor.py:161} INFO - Started process (PID=3718) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:42:06.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:42:06.449+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:42:06.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:42:06.465+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:42:06.510+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:42:06.510+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:42:06.565+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:42:06.564+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:42:06.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.178 seconds
+[2026-06-16T01:42:37.028+0000] {processor.py:161} INFO - Started process (PID=3774) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:42:37.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:42:37.039+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:42:37.038+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:42:37.060+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:42:37.114+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:42:37.114+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:42:37.171+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:42:37.169+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:42:37.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.202 seconds
+[2026-06-16T01:43:07.318+0000] {processor.py:161} INFO - Started process (PID=3830) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:43:07.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:43:07.326+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:43:07.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:43:07.352+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:43:07.406+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:43:07.405+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:43:07.457+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:43:07.456+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:43:07.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.202 seconds
+[2026-06-16T01:43:37.590+0000] {processor.py:161} INFO - Started process (PID=3886) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:43:37.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:43:37.596+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:43:37.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:43:37.615+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:43:37.667+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:43:37.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:43:37.710+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:43:37.710+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:43:37.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.173 seconds
+[2026-06-16T01:44:07.874+0000] {processor.py:161} INFO - Started process (PID=3942) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:44:07.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:44:07.881+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:44:07.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:44:07.898+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:44:07.944+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:44:07.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:44:07.992+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:44:07.992+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:44:08.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.178 seconds
+[2026-06-16T01:44:38.178+0000] {processor.py:161} INFO - Started process (PID=3998) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:44:38.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:44:38.189+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:44:38.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:44:38.209+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:44:38.273+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:44:38.272+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:44:38.336+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:44:38.336+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:44:38.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.218 seconds
+[2026-06-16T01:45:08.584+0000] {processor.py:161} INFO - Started process (PID=4054) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:45:08.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:45:08.591+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:45:08.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:45:08.610+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:45:08.661+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:45:08.661+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:45:08.729+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:45:08.728+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:45:08.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.203 seconds
+[2026-06-16T01:45:39.024+0000] {processor.py:161} INFO - Started process (PID=4110) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:45:39.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:45:39.031+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:45:39.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:45:39.052+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:45:39.123+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:45:39.122+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:45:39.183+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:45:39.183+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:45:39.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.237 seconds
+[2026-06-16T01:46:09.509+0000] {processor.py:161} INFO - Started process (PID=4162) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:46:09.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:46:09.515+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:46:09.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:46:09.529+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:46:09.571+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:46:09.571+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:46:09.616+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:46:09.615+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:46:09.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.230 seconds
+[2026-06-16T01:46:26.747+0000] {processor.py:161} INFO - Started process (PID=4191) to work on /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:46:26.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kitten_image_pipeline.py for tasks to queue
+[2026-06-16T01:46:26.756+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:46:26.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:46:26.789+0000] {processor.py:840} INFO - DAG(s) 'Basic_Airflow_Pipeline' retrieved from /opt/airflow/dags/kitten_image_pipeline.py
+[2026-06-16T01:46:27.158+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:46:27.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-16T01:46:27.269+0000] {logging_mixin.py:188} INFO - [2026-06-16T01:46:27.269+0000] {dag.py:3823} INFO - Setting next_dagrun for Basic_Airflow_Pipeline to 2026-06-16 00:00:00+00:00, run_after=2026-06-17 00:00:00+00:00
+[2026-06-16T01:46:27.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kitten_image_pipeline.py took 0.584 seconds

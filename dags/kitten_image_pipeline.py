@@ -51,7 +51,7 @@ def _get_kitten_images(json_file: str, save_path: str):
 # ---------------------------------------------------------
 
 # IMPORTANT: Unsplash Developer API Key
-CLIENT_ID = 'cvZQtxrpzDB29r4SpnjsZ_BmvGvT9pxztMGCazQgUSQ' 
+CLIENT_ID = '<YOUR_UNSPLASH_ACCESS_KEY>' 
 
 # Task 1: Fetch the data via Bash
 fetch_kitten_urls = BashOperator(

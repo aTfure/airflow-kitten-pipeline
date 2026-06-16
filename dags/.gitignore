@@ -1,0 +1,13 @@
+# Airflow generated folders and files
+logs/
+plugins/
+.env
+
+# Downloaded pipeline data
+dags/fetched_images/
+dags/images_urls.json
+dags/kitten_state.txt
+
+# Python cache
+__pycache__/
+*.pyc
