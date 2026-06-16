@@ -1,0 +1,17 @@
+[2026-06-16T01:32:12.460+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Basic_Airflow_Pipeline.pipeline_notification manual__2026-06-16T01:31:49.536642+00:00 [queued]>
+[2026-06-16T01:32:12.478+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Basic_Airflow_Pipeline.pipeline_notification manual__2026-06-16T01:31:49.536642+00:00 [queued]>
+[2026-06-16T01:32:12.479+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-06-16T01:32:12.505+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): pipeline_notification> on 2026-06-16 01:31:49.536642+00:00
+[2026-06-16T01:32:12.518+0000] {standard_task_runner.py:60} INFO - Started process 402 to run task
+[2026-06-16T01:32:12.524+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Basic_Airflow_Pipeline', 'pipeline_notification', 'manual__2026-06-16T01:31:49.536642+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/kitten_image_pipeline.py', '--cfg-path', '/tmp/tmpdzkh_cyv']
+[2026-06-16T01:32:12.530+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask pipeline_notification
+[2026-06-16T01:32:12.634+0000] {task_command.py:423} INFO - Running <TaskInstance: Basic_Airflow_Pipeline.pipeline_notification manual__2026-06-16T01:31:49.536642+00:00 [running]> on host a49b3c191fa4
+[2026-06-16T01:32:12.940+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Basic_Airflow_Pipeline' AIRFLOW_CTX_TASK_ID='pipeline_notification' AIRFLOW_CTX_EXECUTION_DATE='2026-06-16T01:31:49.536642+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-16T01:31:49.536642+00:00'
+[2026-06-16T01:32:12.949+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-06-16T01:32:12.956+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "There are now $(ls /opt/***/dags/fetched_images/ | wc -l) kitten images."']
+[2026-06-16T01:32:13.013+0000] {subprocess.py:86} INFO - Output:
+[2026-06-16T01:32:13.035+0000] {subprocess.py:93} INFO - There are now 4 kitten images.
+[2026-06-16T01:32:13.037+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-06-16T01:32:13.102+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Basic_Airflow_Pipeline, task_id=pipeline_notification, execution_date=20260616T013149, start_date=20260616T013212, end_date=20260616T013213
+[2026-06-16T01:32:13.162+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-16T01:32:13.210+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
